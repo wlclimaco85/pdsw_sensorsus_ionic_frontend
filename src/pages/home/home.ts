@@ -5,6 +5,7 @@ import { LoadingController } from 'ionic-angular/components/loading/loading-cont
 import { AvaliacaoService } from '../../services/domain/avaliacao.service';
 import { AvaliacaoDTO } from '../../model/avaliacao.dto';
 import { StorageService } from '../../services/storage.service';
+import { Chart } from 'chart.js';
 
 
 @IonicPage()
